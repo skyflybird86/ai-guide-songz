@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream AI 企业智能体平台 - 松智（广州）智能科技有限公司</title>
+    <link rel="stylesheet" href="css/final-perfect-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 加载动画 -->
+    <div class="loading-screen">
+        <div class="loading-spinner"></div>
+        <p>正在加载...</p>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><span>Dream</span><span>AI</span></h2>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">产品介绍</a></li>
+                <li><a href="#features">功能特性</a></li>
+                <li><a href="#cases">客户案例</a></li>
+                <li><a href="#business">业务范围</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页 Hero 区域 -->
+    <section id="home" class="hero">
+        <!-- Cyber Grid Overlay -->
+        <div class="cyber-grid-overlay"></div>
+        
+        <!-- Animated Particles -->
+        <div class="particles" id="particles-js"></div>
+        
+        <!-- Glowing Orbs -->
+        <div class="glowing-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <div class="cyber-tag">AI INTELLIGENCE</div>
+                    <h1 class="hero-title">Dream AI 企业智能体平台</h1>
+                    <p class="hero-subtitle">构建企业大脑和数字员工，提升企业智能化水平</p>
+                    <div class="hero-cta">
+                        <a href="#about" class="btn btn-primary">了解产品</a>
+                        <a href="#contact" class="btn btn-secondary">联系我们</a>
+                    </div>
+                    <div class="tech-stats">
+                        <div class="stat">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">可用性</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7x24</span>
+                            <span class="stat-label">智能服务</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">AI</span>
+                            <span class="stat-label">驱动</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="ai-brain">
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-node"></div>
+                        <div class="neural-network"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- 产品介绍 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>产品介绍</h2>
+                <p>构建企业大脑和数字员工，提升企业智能化水平</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="cyber-tag">ENTERPRISE AI</div>
+                    <h3>企业智能体平台</h3>
+                    <p>Dream AI企业智能体平台是面向企业客户的智能化解决方案，通过先进的AI技术帮助企业实现业务流程自动化、客户服务智能化和数据分析精准化。</p>
+                    <p>将大模型算法与企业专有知识和数据深度融合，打造企业"智能中枢"——企业大脑。基于Dream AI企业智能体平台，构建智能助手、智能问答及多种智能应用服务，通过数字员工，实现企业感知智能、决策智能和执行智能。</p>
+                    
+                    <div class="tech-features">
+                        <div class="feature-item">
+                            <i class="fas fa-brain"></i>
+                            <h4>智能助手</h4>
+                            <p>基于企业私有知识，提供智能问答服务</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-comments"></i>
+                            <h4>智能问答</h4>
+                            <p>7×24小时自动应答，提升服务效率</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-robot"></i>
+                            <h4>数字员工</h4>
+                            <p>自动化处理重复性工作，降低人力成本</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="platform-diagram">
+                        <div class="layer ai-layer">
+                            <div class="layer-header">
+                                <i class="fas fa-brain"></i>
+                                <h4>AI应用层</h4>
+                            </div>
+                            <div class="apps">
+                                <div class="app">智能客服</div>
+                                <div class="app">智能审批</div>
+                                <div class="app">智能质检</div>
+                            </div>
+                        </div>
+                        <div class="layer platform-layer">
+                            <div class="layer-header">
+                                <i class="fas fa-cubes"></i>
+                                <h4>平台层</h4>
+                            </div>
+                            <div class="components">
+                                <div class="component">智能体平台</div>
+                                <div class="component">知识引擎</div>
+                                <div class="component">工作流</div>
+                            </div>
+                        </div>
+                        <div class="layer data-layer">
+                            <div class="layer-header">
+                                <i class="fas fa-database"></i>
+                                <h4>数据层</h4>
+                            </div>
+                            <div class="data-sources">
+                                <div class="source">企业数据</div>
+                                <div class="source">业务系统</div>
+                                <div class="source">外部数据</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 企业数字化发展阶段 -->
+    <section class="digital-evolution">
+        <div class="container">
+            <div class="section-header">
+                <h2>企业数字化发展阶段</h2>
+                <p>从信息化到智能化的演进路径</p>
+            </div>
+            <div class="evolution-stages">
+                <div class="stage">
+                    <div class="stage-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>业务标准化</h3>
+                    <p>规范化业务流程</p>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>业务线上化</h3>
+                    <p>信息化系统建设</p>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>数字化</h3>
+                    <p>商业模式数字化</p>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>智能化</h3>
+                    <p>AI驱动的自动化</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI协作模式 -->
+    <section class="ai-modes">
+        <div class="container">
+            <div class="section-header">
+                <h2>AI协作模式</h2>
+                <p>人类与AI协作的不同阶段</p>
+            </div>
+            <div class="modes-grid">
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <i class="fas fa-plug"></i>
+                        <h3>嵌入模式</h3>
+                    </div>
+                    <div class="mode-content">
+                        <p>人类完成绝大部分工作</p>
+                        <p>AI提供信息或者建议</p>
+                        <div class="mode-visual">
+                            <div class="human-icon">👤</div>
+                            <div class="ai-icon">🤖</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <i class="fas fa-user-astronaut"></i>
+                        <h3>助理模式</h3>
+                    </div>
+                    <div class="mode-content">
+                        <p>人类和AI协作工作</p>
+                        <p>AI完成初稿，人类修改调整</p>
+                        <div class="mode-visual">
+                            <div class="human-icon">👤</div>
+                            <div class="ai-icon">🤖</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>代理模式</h3>
+                    </div>
+                    <div class="mode-content">
+                        <p>AI完成绝大部分工作</p>
+                        <p>人类设立目标，AI自主执行</p>
+                        <div class="mode-visual">
+                            <div class="human-icon">👤</div>
+                            <div class="ai-icon">🤖</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 客户案例（合并了服务过的客户内容） -->
+    <section id="cases" class="cases">
+        <div class="container">
+            <div class="section-header">
+                <h2>客户案例</h2>
+                <p>众多企业信赖的智能解决方案 - 包括名创优品、德美化工、广汽本田等知名客户</p>
+            </div>
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>零售连锁 - 门店费用智能报审</h3>
+                    <p>头部零售连锁企业，4000家门店租金、物业费、水电费智能处理</p>
+                    <div class="case-results">
+                        <div class="result">
+                            <span class="number">70%</span>
+                            <span class="label">人力成本降低</span>
+                        </div>
+                        <div class="result">
+                            <span class="number">90%</span>
+                            <span class="label">填报效率提升</span>
+                        </div>
+                        <div class="result">
+                            <span class="number">80%</span>
+                            <span class="label">数据准确率</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>化工行业 - 产品知识智能助手</h3>
+                    <p>900多个产品，构建产品知识库，提供7×24小时服务</p>
+                    <div class="case-results">
+                        <div class="result">
+                            <span class="number">90%</span>
+                            <span class="label">检索时间节省</span>
+                        </div>
+                        <div class="result">
+                            <span class="number">50%</span>
+                            <span class="label">新人培养周期缩短</span>
+                        </div>
+                        <div class="result">
+                            <span class="number">节省</span>
+                            <span class="label">资深技术人员时间</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>汽车厂商 - 智能售后系统</h3>
+                    <p>为车主、4S店技师和厂端管理人员提供智能服务</p>
+                    <div class="case-results">
+                        <div class="result">
+                            <span class="number">提升</span>
+                            <span class="label">客户满意度</span>
+                        </div>
+                        <div class="result">
+                            <span class="number">改善</span>
+                            <span class="label">维修效率</span>
+                        </div>
+                        <div class="result">
+                            <span class="number">减少</span>
+                            <span class="label">品质问题</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特性 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>功能特性</h2>
+                <p>强大的平台功能，满足企业多样化需求</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>应用市场</h3>
+                    <p>提供丰富的AI应用，支持快速部署和使用</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <h3>资源库管理</h3>
+                    <p>统一管理企业文档、图片、音视频等资源</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>知识库管理</h3>
+                    <p>构建企业私有知识库，支持智能问答</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>大模型接入</h3>
+                    <p>支持国内外主流大模型，也可接入本地模型</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>工作流</h3>
+                    <p>拖拉拽设计工作流，灵活满足各种场景需求</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>智能问数</h3>
+                    <p>自然语言查询数据库，提升数据洞察效率</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 业务范围（简化样式） -->
+    <section id="business" class="business-section-simple">
+        <div class="container">
+            <div class="section-header">
+                <h2>业务范围</h2>
+                <p>全方位AI智能化服务，助力企业数字化转型</p>
+            </div>
+            <div class="business-grid">
+                <div class="business-card">
+                    <div class="business-icon" style="background: #667eea !important; color: #ffffff !important;">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 style="color: #2c3e50 !important;">企业AI智能体平台应用</h3>
+                    <p style="color: #7f8c8d !important;">为企业提供定制化AI智能体平台，包括智能客服、智能审批、智能质检、智能决策等应用，助力企业实现业务流程自动化和智能化。</p>
+                </div>
+                <div class="business-card">
+                    <div class="business-icon" style="background: #667eea !important; color: #ffffff !important;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 style="color: #2c3e50 !important;">定制智能体应用</h3>
+                    <p style="color: #7f8c8d !important;">利用n8n、Coze等开源平台，为小型企业（直播、跨境、内容等）和个人IP定制智能体应用，提供小程序、小应用等服务。</p>
+                </div>
+                <div class="business-card">
+                    <div class="business-icon" style="background: #667eea !important; color: #ffffff !important;">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 style="color: #2c3e50 !important;">数字化项目服务</h3>
+                    <p style="color: #7f8c8d !important;">为合作企业提供数字化项目整体规划、产品规划、产品管理、项目管理、质量管理等技术服务，助力企业实现全面数字化转型。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 应用场景 -->
+    <section class="scenarios">
+        <div class="container">
+            <div class="section-header">
+                <h2>应用场景</h2>
+                <p>覆盖企业运营各个环节</p>
+            </div>
+            <div class="scenarios-grid">
+                <div class="scenario-category">
+                    <h3>咨询型工作</h3>
+                    <ul>
+                        <li>客户服务</li>
+                        <li>售后维修</li>
+                        <li>销售支持</li>
+                        <li>市场分析</li>
+                    </ul>
+                </div>
+                <div class="scenario-category">
+                    <h3>创作型工作</h3>
+                    <div class="scenario-content">
+                        <ul>
+                            <li>品牌宣传</li>
+                            <li>营销推广</li>
+                            <li>技术研发</li>
+                            <li>销售方案</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="scenario-category">
+                    <h3>重复型工作</h3>
+                    <div class="scenario-content">
+                        <ul>
+                            <li>营销获客</li>
+                            <li>费用报销</li>
+                            <li>人员招聘</li>
+                            <li>行政办公</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="scenario-category">
+                    <h3>决策型工作</h3>
+                    <div class="scenario-content">
+                        <ul>
+                            <li>经营管理</li>
+                            <li>风险管理</li>
+                            <li>供应链优化</li>
+                            <li>库存预测</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="cyber-tag">GET IN TOUCH</div>
+                <h2>联系我们</h2>
+                <p>了解更多信息，获取专属解决方案</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>松智（广州）智能科技有限公司</h3>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>地址：广州市琶洲人工智能与数字经济体验推广中心</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fab fa-weixin"></i>
+                            <span>微信：扫描右侧二维码添加</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>邮箱：info@songzhi.ai</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>工作时间：周一至周五 9:00-18:00</span>
+                        </div>
+                    </div>
+                    <div class="wechat-qr">
+                        <img src="images/wechat-qr.jpg" alt="微信二维码" style="width: 150px; height: 150px; border: 2px solid #64ffda; border-radius: 10px; object-fit: cover; box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);">
+                        <p>扫码添加微信</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="联系电话">
+                    </div>
+                    <div class="form-group">
+                        <select id="serviceType" name="serviceType">
+                            <option value="" disabled selected>选择服务类型</option>
+                            <option value="enterprise-platform">企业智能体平台</option>
+                            <option value="custom-agent">定制智能体应用</option>
+                            <option value="digital-service">数字化项目服务</option>
+                            <option value="other">其他服务</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="message" name="message" placeholder="请描述您的需求" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">提交咨询</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dream<span>AI</span></h3>
+                    <p>构建企业大脑和数字员工，提升企业智能化水平</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-qq"></i></a>
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>产品服务</h4>
+                    <ul>
+                        <li><a href="#">企业智能体平台</a></li>
+                        <li><a href="#">智能客服系统</a></li>
+                        <li><a href="#">知识库管理</a></li>
+                        <li><a href="#">工作流引擎</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>解决方案</h4>
+                    <ul>
+                        <li><a href="#">零售连锁</a></li>
+                        <li><a href="#">制造业</a></li>
+                        <li><a href="#">汽车行业</a></li>
+                        <li><a href="#">化工行业</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>支持</h4>
+                    <ul>
+                        <li><a href="#">文档中心</a></li>
+                        <li><a href="#">API文档</a></li>
+                        <li><a href="#">技术支持</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 松智（广州）智能科技有限公司. 位于广州市琶洲人工智能与数字经济体验推广中心. 保留所有权利.</p>
+                <div class="footer-links">
+                    <a href="#">隐私政策</a>
+                    <a href="#">服务条款</a>
+                    <a href="#">网站地图</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/tech-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>
