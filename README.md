@@ -46,3 +46,4 @@ python3 -m http.server 8000
 
 - Chrome, Firefox, Safari, Edge (最新版本)
 - 移动端浏览器支持
+# ai-guide-songz
